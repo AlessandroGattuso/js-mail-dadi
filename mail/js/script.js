@@ -18,11 +18,11 @@ btn.addEventListener("click", function(){
   }
 
   if(flag){
-    document.querySelector("#answer").classList += " text-success";
+    document.querySelector("#answer").classList = "ms-3 text-success";
     document.querySelector("#answer").innerText = "Email verificata";
   } 
   else{
-    document.querySelector("#answer").classList += " text-danger";
+    document.querySelector("#answer").classList = "ms-3 text-danger";
     document.querySelector("#answer").innerText = "L'email che hai inserito non esiste";
   }
 
