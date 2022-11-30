@@ -1,6 +1,6 @@
 // Array of emails
 const listEmail = ["alex@gmail.com", "meeseeks2015@outlook.it", "techcompany@gmail.com"];
-// btn from html page
+// Btn from html page
 let btn = document.querySelector("button");     
 // Flag that will allow us to say if the email is in the array
 let flag;
